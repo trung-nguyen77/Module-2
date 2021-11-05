@@ -1,22 +1,22 @@
 package bai2;
 
-public class SNT {
+public class TwentyPrimeFrom13 {
     public static void main(String[] args) {
         int x = 0;
         int count = 0;
         for (int i = 13;count < 20 ;i++) {
             boolean check = true;
-            for (int j = 2;j <= Math.sqrt(x); j++) {
+            for (int j = 2;j <= Math.sqrt(i); j++) {
                 if (i % j == 0) {
                     check = false;
                     break;
                 }
             }
             if (check) {
-                count++;
                 x = i;
+                System.out.println(x);
+                count++;
             }
         }
-        System.out.println(x);
     }
 }

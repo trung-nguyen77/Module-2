@@ -1,7 +1,7 @@
 package bai1;
 import java.util.Scanner;
 
-public class operatorExpression {
+public class OperatorExpression {
     public static void main(String[] args) {
         float width;
         float height;
