@@ -2,7 +2,7 @@ package bai2;
 
 public class TwentyPrimeFrom13 {
     public static void main(String[] args) {
-        int x = 0;
+        int x;
         int count = 0;
         for (int i = 13;count < 20 ;i++) {
             boolean check = true;
