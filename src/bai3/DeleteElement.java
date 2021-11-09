@@ -1,29 +1,36 @@
 package bai3;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class DeleteElement {
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 9, 3, 4, 5};
-        delete(arr,9);
-    }
-    public static void delete(int[] arr, int x) {
-        int[] newArr = new int[arr.length - 1];
-        int index_del = -1;
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (x == arr[i]){
-                index_del = i;
+        String str = "abcdefg abchijk";
+        String[] arr = str.split("");
+        System.out.println(Arrays.toString(arr));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the element to look for:");
+        String str2 = scanner.nextLine();
+        int count = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i].equals(str2)) {
+                count++;
+                System.out.println(str2 + " in place " + i);
             }
         }
-        for (int i = 0; i < newArr.length ; i++) {
-            if (i >= index_del) {
-                newArr[i] = arr[i + 1];
-            } else {
-                newArr[i] = arr[i];
-            }
-        }
-        arr = newArr;
-        for (int j : arr) {
-            System.out.println(j);
-        }
+        System.out.println(count);
+        System.out.println(Arrays.toString(delete(arr,str2,count)));
     }
+    public static String[] delete(String[] arr,String value, int wordCount) {
+        String[] arrNew = new String[arr.length - wordCount];
+        int count = 0;
+        for (int i = 0; i < arr.length - count; i++) {
+            if (arr[i + count].equals(value)) {
+                count++;
+            }
+            arrNew[i] = arr[i + count];
 
+        }
+        return arrNew;
+    }
 }
