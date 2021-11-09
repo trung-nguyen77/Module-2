@@ -2,7 +2,7 @@ package bai4;
 
 import java.util.Scanner;
 
-public class MainRectangle {
+public class RectangleMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the width:");
