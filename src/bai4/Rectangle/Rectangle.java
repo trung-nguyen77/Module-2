@@ -1,4 +1,4 @@
-package bai4;
+package bai4.Rectangle;
 
 public class Rectangle {
     double width, height;

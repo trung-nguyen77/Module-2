@@ -1,4 +1,6 @@
-package bai4;
+package bai4.StopWatch;
+
+import bai4.StopWatch.StopWatch;
 
 import java.util.Scanner;
 

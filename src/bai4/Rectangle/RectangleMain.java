@@ -1,4 +1,6 @@
-package bai4;
+package bai4.Rectangle;
+
+import bai4.Rectangle.Rectangle;
 
 import java.util.Scanner;
 

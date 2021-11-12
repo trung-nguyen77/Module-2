@@ -1,4 +1,6 @@
-package bai4;
+package bai4.QuadraticEquation;
+
+import bai4.QuadraticEquation.QuadraticEquation;
 
 import java.util.Scanner;
 

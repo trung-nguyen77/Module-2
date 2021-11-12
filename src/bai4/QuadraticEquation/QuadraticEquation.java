@@ -1,4 +1,4 @@
-package bai4;
+package bai4.QuadraticEquation;
 
 public class QuadraticEquation {
     private double a;
