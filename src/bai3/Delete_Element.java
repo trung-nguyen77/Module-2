@@ -3,7 +3,7 @@ package bai3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class DeleteElement {
+public class Delete_Element {
     public static void main(String[] args) {
         String str = "abcdefg abchijk";
         String[] arr = str.split("");
