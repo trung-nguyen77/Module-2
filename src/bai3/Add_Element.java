@@ -1,6 +1,6 @@
 package bai3;
 
-public class AddElement {
+public class Add_Element {
     public static void add(int[] arr,int value) {
         int[] newArr = new int[arr.length + 1];
         for (int i = 0; i < arr.length; i++) {
