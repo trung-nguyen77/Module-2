@@ -1,10 +1,10 @@
-package bai11.ThucHanh1;
+package bai11_Quece_Stack.ThucHanh1;
 
 import java.util.EmptyStackException;
 import java.util.LinkedList;
 
 public class MyGenericStack<T> {
-    private LinkedList<T> stack;
+    private final LinkedList<T> stack;
     public MyGenericStack() {
         stack = new LinkedList<>();
     }
@@ -22,6 +22,7 @@ public class MyGenericStack<T> {
             return true;
         }
         return false;
+        //        return stack.size() == 0;
     }
     public int size() {
         return stack.size();
@@ -52,13 +53,13 @@ public class MyGenericStack<T> {
         while (!stack.isEmpty()) {
             System.out.printf(" %d", stack.pop());
         }
-        System.out.println("\n3.3 Size of stack after pop operations : " + stack.size());
+        System.out.println("\n2.3 Size of stack after pop operations : " + stack.size());
     }
     public static class GenericStackClient {
         public static void main(String[] args) {
-            System.out.println("1. Stack of integers");
+            System.out.println("2. Stack of integers");
             stackOfIntegers();
-            System.out.println("\n2. Stack of Strings");
+            System.out.println("\n1. Stack of Strings");
             stackOfIStrings();
         }
     }

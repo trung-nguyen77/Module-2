@@ -1,4 +1,4 @@
-package bai10.ArrayListExercise;
+package bai10_List.ArrayListExercise;
 
 public class MyList<E> {
     private int size = 0;

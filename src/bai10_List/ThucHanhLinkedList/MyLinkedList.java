@@ -1,4 +1,4 @@
-package bai10.ThucHanhLinkedList;
+package bai10_List.ThucHanhLinkedList;
 
 
 public class MyLinkedList {

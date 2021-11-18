@@ -1,4 +1,4 @@
-package bai10.ThucHanhArrayList;
+package bai10_List.ThucHanhArrayList;
 
 public class MyListTest {
     public static void main(String[] args) {

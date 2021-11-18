@@ -1,4 +1,4 @@
-package bai10.ThucHanhArrayList;
+package bai10_List.ThucHanhArrayList;
 
 import java.util.Arrays;
 
