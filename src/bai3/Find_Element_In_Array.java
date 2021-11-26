@@ -20,4 +20,5 @@ public class Find_Element_In_Array {
             System.out.println("Not found" + input_name + " in the list.");
         }
     }
+
 }

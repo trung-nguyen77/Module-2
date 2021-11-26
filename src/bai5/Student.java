@@ -1,18 +1,23 @@
 package bai5;
 
 public class Student {
-    private int rollno;
+    private int age;
     private String name;
     private static String college = "BBDIT";
 
-    Student(int r, String n) {
-        rollno = r;
-        name = n;
+    public Student(int age, String name) {
+        this.age = age;
+        this.name = name;
     }
+
     static void change() {
         college = "CODEGYM";
     }
-    void display() {
-        System.out.println(rollno + " " + name + " " + college);
+    public void display() {
+        System.out.println(age + " " + name + " " + college);
     }
+
+//    public static void Main(String[] args) {
+//        di
+//    }
 }
